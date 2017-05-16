@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_profileselect"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mahe.blucol.profileselect">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginLeft="100dp"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_below="@+id/updatepic"
+                android:id="@+id/newcircle" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NAME"
+                android:width="200dp"
+                android:layout_marginTop="270dp"
+                android:id="@+id/textViewName"/>
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AGE"
+                android:layout_marginTop="270dp"
+                android:layout_marginLeft="200dp"
+                android:id="@+id/textViewAge"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GENDER"
+                android:layout_marginTop="300dp"
+                android:id="@+id/textViewGender"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LOCATION"
+                android:layout_marginTop="300dp"
+                android:layout_marginLeft="200dp"
+                android:id="@+id/textViewLocation"
+                android:layout_weight="3.80" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CONTACT_NO"
+                android:width="200dp"
+                android:layout_marginTop="330dp"
+                android:id="@+id/textViewContactNo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DESCRIPTION"
+                android:layout_marginTop="370dp"
+                android:id="@+id/textViewDescription"/>
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SELECT EMPLOYEE"
+                android:layout_marginTop="430dp"
+                android:id="@+id/selectemployee"
+                android:onClick="selectEmployee" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add review"
+                android:layout_marginTop="500dp"
+                android:id="@+id/addReview"
+                android:onClick="addReview" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="add review"
+                android:layout_below="@+id/addReview"
+                android:id="@+id/editText100" />
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="156dp"
+                android:headerDividersEnabled="false"
+                android:footerDividersEnabled="false"
+                android:id="@+id/def"
+                android:layout_below="@+id/editText100"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_employee_job_search"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mahe.blucol.employeeJobSearch">
+
+
+
+
+    <Button
+        android:text="NEXT"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1299"
+        android:onClick="next"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/textView1199"
+        android:text="name_employer"
+        android:textStyle="bold"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/textView1999"
+        android:layout_alignLeft="@+id/textView1999"
+        android:layout_alignStart="@+id/textView1999" />
+
+    <TextView
+        android:text="Do you wish to apply for the job?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2999"
+        android:layout_above="@+id/button1399"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="PREVIOUS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1399"
+        android:onClick="previous"
+        android:textSize="20dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView1199"
+        android:layout_alignStart="@+id/textView1199" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/textView1899"
+        android:text="contact"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/textView1199"
+        android:layout_alignBottom="@+id/textView1199"
+        android:layout_toLeftOf="@+id/button1299"
+        android:layout_toStartOf="@+id/button1299"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp" />
+
+    <TextView
+        android:text="Contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:id="@+id/textView2199"
+        android:layout_above="@+id/textView1199"
+        android:layout_alignLeft="@+id/textView1899"
+        android:layout_alignStart="@+id/textView1899" />
+
+    <TextView
+        android:text="Wage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:id="@+id/textView2799"
+        android:layout_alignBaseline="@+id/textView2199"
+        android:layout_alignBottom="@+id/textView2199"
+        android:layout_toRightOf="@+id/textView2999"
+        android:layout_toEndOf="@+id/textView2999" />
+
+    <TextView
+        android:text="wage"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2899"
+        android:layout_alignBaseline="@+id/textView1899"
+        android:layout_alignBottom="@+id/textView1899"
+        android:layout_alignLeft="@+id/textView2799"
+        android:layout_alignStart="@+id/textView2799" />
+
+    <TextView
+        android:text="Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:id="@+id/textView3199"
+        android:layout_marginBottom="50dp"
+        android:layout_above="@+id/button1499"
+        android:layout_alignLeft="@+id/textView1799"
+        android:layout_alignStart="@+id/textView1799" />
+
+    <TextView
+        android:text="Employer_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:id="@+id/textView1999"
+        android:layout_marginTop="57dp"
+        android:textStyle="italic"
+        android:layout_below="@+id/textView1799"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Jobs in Building sector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2099"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/button1399"
+        android:layout_toEndOf="@+id/button1399" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:id="@+id/textView1799"
+        android:text="location"
+        android:textStyle="bold"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp"
+        android:layout_below="@+id/textView2099"
+        android:layout_alignRight="@+id/button1499"
+        android:layout_alignEnd="@+id/button1499"
+        android:layout_marginTop="63dp" />
+
+    <Button
+        android:text="APPLIED WORKERS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1499"
+        android:textSize="20dp"
+        android:onClick="appliedWorkers"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_above="@+id/textView2999"
+        android:layout_alignLeft="@+id/textView2999"
+        android:layout_alignStart="@+id/textView2999" />
+
+</RelativeLayout>

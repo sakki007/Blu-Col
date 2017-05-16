@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "947309388199",
+    "firebase_url": "https://blucol-dd41e.firebaseio.com",
+    "project_id": "blucol-dd41e",
+    "storage_bucket": "blucol-dd41e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947309388199:android:eebc9e1835cac37c",
+        "android_client_info": {
+          "package_name": "com.example.mahe.blucol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947309388199-htpk26fhdqq3a5u679u4aksfukna1k63.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mahe.blucol",
+            "certificate_hash": "8ebd49d2a8534b0203ac3ab58cf7b1824ec49736"
+          }
+        },
+        {
+          "client_id": "947309388199-iguv62t6v08i2166e7glm5uipodpefpe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL3gKlOHj0nanjpiTM6eX9PMk5ep2chFk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "947309388199-iguv62t6v08i2166e7glm5uipodpefpe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mahe.blucol">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ChosingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivityEmployee"
+            android:label="@string/title_activity_login_employee"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".LoginActivityEmployer" />
+        <activity android:name=".EmployerAccount" />
+        <activity android:name=".UserProfile" />
+        <activity android:name=".employee_profile" />
+        <activity
+            android:name=".dashboard"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".employeeDescription" />
+        <activity
+            android:name=".dashboardemployer"
+            android:label="@string/title_activity_dashboardemployer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".employerDashboard2"
+            android:label="@string/title_activity_employer_dashboard2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".jobpost" />
+        <activity android:name=".employeeJobSearch" />
+        <activity android:name=".job_select" />
+        <activity android:name=".employeejobdash" />
+        <activity android:name=".jobemployeesearch" />
+        <activity android:name=".jobemployeesearchfurther" />
+        <activity android:name=".profileselect" />
+        <activity android:name=".about"></activity>
+    </application>
+
+</manifest>

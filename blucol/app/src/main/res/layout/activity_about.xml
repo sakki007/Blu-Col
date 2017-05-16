@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mahe.blucol.about">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="TERMS AND CONDITIONS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView199"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="0dp"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+
+            <TextView
+                android:text="> You are expected to use genuine user information on this application. If found using forged identities, then your account can be deactivated without any prior notice. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView200"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="0dp"
+                android:textStyle="bold"
+                 />
+
+            <TextView
+                android:text="> Any attempt to break the application can lead to the suspension of your account."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView201"
+                android:layout_marginTop="130dp"
+                android:layout_marginLeft="0dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:text="> This application cannot be used for commercial purposes. If found doing so, the respected users can be reported and a strict action will be taken against them."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView202"
+                android:layout_marginTop="170dp"
+                android:layout_marginLeft="0dp"
+                android:textStyle="bold"
+                 />
+
+            <TextView
+                android:text="> BLU COL has been developed by a team of students from Manipal Institute of Technology and the team reserves the rights for any changes made to this application and its future prospects."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView203"
+                android:layout_marginTop="240dp"
+                android:layout_marginLeft="0dp"
+                android:textStyle="bold"
+                />
+
+
+            <TextView
+                android:text="BLU COL Team Members"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView204"
+                android:layout_marginTop="360dp"
+                android:layout_marginLeft="0dp"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:text="Android Developer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView205"
+                android:layout_marginTop="500dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:text="Android Developer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView206"
+                android:layout_marginTop="720dp"
+                android:textStyle="bold"/>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:id="@+id/updatepicanchit"
+                android:layout_marginTop="430dp"
+                android:layout_marginLeft="150dp"
+                />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:id="@+id/updatepicsaksham"
+                android:layout_marginTop="660dp"
+                android:layout_marginLeft="150dp"
+                />
+
+            <TextView
+                android:text="       Developer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView207"
+                android:layout_marginTop="980dp"
+                android:textStyle="bold"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:id="@+id/updatepicmoinak"
+                android:layout_marginTop="890dp"
+                android:layout_marginLeft="150dp" />
+
+
+            <TextView
+                android:text="Contact       89511-xxxxx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView208"
+                android:layout_marginTop="1170dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:text="Email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView209"
+                android:layout_marginTop="1200dp"
+                android:textStyle="bold"
+                />
+
+
+            <TextView
+                android:text="blucol.team@gmail.com"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView210"
+                android:layout_marginTop="1200dp"
+                android:layout_marginLeft="60dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:onClick="emailclick"/>
+
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+
+</RelativeLayout>
